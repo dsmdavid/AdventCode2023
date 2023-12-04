@@ -102,7 +102,7 @@ def download_input(filename=None, session=None):
 URL = "https://adventofcode.com/{:d}/day/{:d}/{:s}"
 YEAR = -1
 DAY = -1
-DOWNLOAD_FOLDER = "./inputs"
+DOWNLOAD_FOLDER = "../inputs"
 AOC_USER = os.getenv("AOC_USER")
 AOC_EMAIL = os.getenv("AOC_EMAIL")
 AOC_USER_AGENT = os.getenv("AOC_USER_AGENT")
