@@ -5,3 +5,4 @@ secrets/*
 */__pycache__/*
 pip-log.txt
 .DS_Store
+*.pyc
