@@ -66,10 +66,12 @@ def solver(input):
             )
         )
         if len(valid_numbers_names) == 2:
-            total_2 += prod([
-                NUMBERS.get(number_name, {}).get("value")
-                for number_name in valid_numbers_names
-            ])
+            total_2 += prod(
+                [
+                    NUMBERS.get(number_name, {}).get("value")
+                    for number_name in valid_numbers_names
+                ]
+            )
 
     print(total_2)
     return total

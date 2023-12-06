@@ -20,18 +20,19 @@ Card 6: 31 18 13 56 72 | 74 77 10 23 35 67 36 11""".split(
     "\n"
 )
 
+
 def solver(input):
     total = 0
     total_2 = 0
-    CARDS = {i:1 for i in range(1,len(input)+1)}
+    CARDS = {i: 1 for i in range(1, len(input) + 1)}
     card_index = 1
     for line in input:
-        card, numbers = line.split(': ')
-        valid, mine = map(lambda x: set(x.split()), numbers.split(' | '))
-        valid_mine = valid & mine # list(filter(lambda x: x in valid, mine)) 
+        card, numbers = line.split(": ")
+        valid, mine = map(lambda x: set(x.split()), numbers.split(" | "))
+        valid_mine = valid & mine  # list(filter(lambda x: x in valid, mine))
         if valid_mine:
-            total += pow(2, len(valid_mine)-1)
-            for k in range(card_index+1, card_index+1+len(valid_mine)):
+            total += pow(2, len(valid_mine) - 1)
+            for k in range(card_index + 1, card_index + 1 + len(valid_mine)):
                 CARDS[k] += CARDS[card_index]
 
         card_index += 1
@@ -40,7 +41,7 @@ def solver(input):
     # part 2
     total_2 = sum(CARDS.values())
     print(total_2)
-   
+
     return total, total_2
 
 
