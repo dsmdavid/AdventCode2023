@@ -7,3 +7,8 @@
 2023-12-05 22:57:15,625 - __main__ - INFO - valid_status - Valid response obtained
 2023-12-05 22:57:15,626 - __main__ - DEBUG - valid_status - seeds: 364807853 408612163 302918330 20208251 1499...
 2023-12-05 22:57:15,626 - __main__ - INFO - download_input - Input saved to ./inputs/2023__5.txt
+2023-12-06 05:15:26,293 - __main__ - DEBUG - download_input - Configured to run as year: 2023 and day: 6
+2023-12-06 05:15:26,546 - __main__ - INFO - valid_status - Valid response obtained
+2023-12-06 05:15:26,546 - __main__ - DEBUG - valid_status - Time:        59     70     78     78
+Distance:   4...
+2023-12-06 05:15:26,546 - __main__ - INFO - download_input - Input saved to ./inputs/2023__6.txt
