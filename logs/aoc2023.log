@@ -21,3 +21,7 @@ TKQ7T 320
 665JJ 431
 K8...
 2023-12-07 05:15:32,903 - __main__ - INFO - download_input - Input saved to ./inputs/2023__7.txt
+2023-12-08 05:15:27,558 - __main__ - DEBUG - download_input - Configured to run as year: 2023 and day: 8
+2023-12-08 05:15:27,813 - __main__ - INFO - valid_status - Valid response obtained
+2023-12-08 05:15:27,814 - __main__ - DEBUG - valid_status - LRLRLRRLRRRLRRRLRRRLRLRRRLRRRLRRRLLRLRRRLRLRRRLLRR...
+2023-12-08 05:15:27,814 - __main__ - INFO - download_input - Input saved to ./inputs/2023__8.txt
