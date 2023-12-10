@@ -89,6 +89,7 @@ total = follow_instructions(instructions=instructions)
 print(total)
 
 # part_2
+# why is this working? there're multiple reasons to make this fail
 list_of_ghosts = [ghost for ghost in NODES.keys() if ghost[-1] == "A"]
 list_of_targets = [ghost for ghost in NODES.keys() if ghost[-1] == "Z"]
 landings = follow_ghost_instructions(instructions, list_of_ghosts, list_of_targets)
