@@ -42,3 +42,10 @@ K8...
 2023-12-12 05:15:27,587 - __main__ - DEBUG - valid_status - #??#???.??#?#?#??#?. 6,8,2
 ?????????#?#.#?.?.# 4,3...
 2023-12-12 05:15:27,588 - __main__ - INFO - download_input - Input saved to ./inputs/2023__12.txt
+2023-12-13 05:15:18,474 - __main__ - DEBUG - download_input - Configured to run as year: 2023 and day: 13
+2023-12-13 05:15:18,571 - __main__ - INFO - valid_status - Valid response obtained
+2023-12-13 05:15:18,571 - __main__ - DEBUG - valid_status - .###....#.###..
+...#.##...#.#..
+.#.#.#.......##
+##...
+2023-12-13 05:15:18,571 - __main__ - INFO - download_input - Input saved to ./inputs/2023__13.txt
