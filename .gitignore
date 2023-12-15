@@ -1,5 +1,6 @@
 *.bak
 aoc23/*
+.env/
 secrets/*
 */logs/*
 */__pycache__/*
