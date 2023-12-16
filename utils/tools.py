@@ -6,3 +6,11 @@ def get_input(day, sep ="\n", file_path = None):
         input_file = [line.replace(sep,'') for line in f.readlines()]
     # print(input_file)
     return input_file
+
+
+def print_grid(grid, joiner = None):
+    for i, row in enumerate(grid):
+        if  joiner is None:
+            print(i, '\t', row)
+        else:
+            print(i, '\t', joiner.join(row))
