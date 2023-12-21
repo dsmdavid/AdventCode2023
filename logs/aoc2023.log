@@ -85,3 +85,7 @@ svj{x>1520:A,A}
 %rz -> vm, gl
 broadcaster -> rz, fp, kv,...
 2023-12-20 05:12:30,681 - __main__ - INFO - download_input - Input saved to ./inputs/2023__20.txt
+2023-12-21 05:15:23,474 - __main__ - DEBUG - download_input - Configured to run as year: 2023 and day: 21
+2023-12-21 05:15:23,568 - __main__ - INFO - valid_status - Valid response obtained
+2023-12-21 05:15:23,568 - __main__ - DEBUG - valid_status - .....................................................
+2023-12-21 05:15:23,568 - __main__ - INFO - download_input - Input saved to ./inputs/2023__21.txt
