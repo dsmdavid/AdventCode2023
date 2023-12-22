@@ -89,3 +89,10 @@ broadcaster -> rz, fp, kv,...
 2023-12-21 05:15:23,568 - __main__ - INFO - valid_status - Valid response obtained
 2023-12-21 05:15:23,568 - __main__ - DEBUG - valid_status - .....................................................
 2023-12-21 05:15:23,568 - __main__ - INFO - download_input - Input saved to ./inputs/2023__21.txt
+2023-12-22 05:15:43,248 - __main__ - DEBUG - download_input - Configured to run as year: 2023 and day: 22
+2023-12-22 05:15:43,362 - __main__ - INFO - valid_status - Valid response obtained
+2023-12-22 05:15:43,362 - __main__ - DEBUG - valid_status - 2,3,58~4,3,58
+8,3,263~8,5,263
+2,3,4~2,3,5
+2,8,257~...
+2023-12-22 05:15:43,363 - __main__ - INFO - download_input - Input saved to ./inputs/2023__22.txt
